@@ -1,0 +1,92 @@
+body {
+    font-family: 'Tahoma';
+    margin: 10px;
+}
+
+li {
+    text-align: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearFix {
+    clear: both;
+}
+
+
+/* Game board */
+
+#game {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#title {
+    font-style: italic;
+    text-align: center;
+}
+
+#score {
+    font-size: 20px;
+}
+
+#hint {
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+}
+
+.tile {
+    margin: 3px;
+    border-radius: 10%;
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+
+.tile:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+
+/* Modal */
+
+#modal {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+#modal div {
+    width: 300px;
+    margin: 150px auto;
+    border: 1px solid black;
+    padding: 10px;
+    background: #CCCCCC;
+    color: black;
+    text-align: center;
+}
+
+
+/* Media queries for mobile devices */
+
+@media only screen and (max-width: 480px) {
+    #game {
+        width: 85%;
+    }
+    #modal div {
+        width: 80%;
+    }
+}
