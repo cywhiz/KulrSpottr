@@ -102,7 +102,7 @@ class KulrSpottr {
         html += '<h3>Your score is ' + game.score + '</h3>';
         html += '<p>Submit your name to the Hall of Fame</p>';
         html += '<form>';
-        html += '<input type="text" id="player"> <button type="submit" class="btn btn-success" id="addScore">Submit</button>';
+        html += '<input type="text" id="player"> <button type="button" class="btn btn-success" id="addScore">Submit</button>';
         html += '</form>';
         html += '</div>';
 
@@ -145,5 +145,6 @@ class KulrSpottr {
         html += '</div>';
 
         $('#modal').html(html);
+        $('#modal').css('visibility', 'visible');
     }
 }

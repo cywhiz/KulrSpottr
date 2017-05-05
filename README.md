@@ -3,7 +3,7 @@
 ## Description
 KulrSpottr is a game where the player has to spot the tile which has a different colour in a matrix of coloured tiles. If the player clicks the right tile, the game continues and the player moves on to the next level of difficulty. The game ends when the player chooses the wrong tile.
 
-## Prerequisities
+## Prerequisites
 Any modern Web browser with JavaScript enabled. Used crossbrowsertesting.com and also real devices to test cross-platform compatibilities. Fully compatible with the following popular Web browsers:
 * Windows: (Chrome, Firefox, IE Edge)
 * Linux: Chrome, Firefox
