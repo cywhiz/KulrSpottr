@@ -5,10 +5,10 @@ KulrSpottr is a game where the player has to spot the tile which has a different
 
 ## Prerequisites
 Any modern Web browser with JavaScript enabled. Used https://crossbrowsertesting.com and also real devices to test cross-platform compatibilities. Fully compatible with the following popular Web browsers:
-* Windows: (Chrome, Firefox, IE Edge)
-* Linux: Chrome, Firefox
-* Android: Chrome, Firefox
-* iOS (iPhone): Chrome, Safari
+* Windows: latest Chrome, latest Firefox, IE 11/Edge, latest Opera
+* Linux: latest Chrome, latest Firefox
+* Android: latest Chrome, latest Firefox, stock browser
+* iOS: latest Chrome, Safari 9/10
 
 ## Usage
 1. Clone the repository to a local folder by running `git clone https://github.com/cywhiz/Kulrspottr.git`
