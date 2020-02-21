@@ -1,7 +1,7 @@
 var game;
 var scores = [];
 
-function KulrSpottr() {
+function CoolTiles() {
     // Initialize the game
     game = this;
     game.newGame();
@@ -17,7 +17,7 @@ function KulrSpottr() {
     Set default score and level, then initialize the game
 */
 
-KulrSpottr.prototype.newGame = function() {
+CoolTiles.prototype.newGame = function() {
     // Set the initial score and level
     game.score = 0;
     game.level = 2;
@@ -33,7 +33,7 @@ KulrSpottr.prototype.newGame = function() {
     Draw N x N square tiles depending on level
 */
 
-KulrSpottr.prototype.drawBoard = function(level) {
+CoolTiles.prototype.drawBoard = function(level) {
     // Make sure the Show Hint checkbox is not checked
     $('#showHint').prop('checked', false);
 
@@ -71,7 +71,7 @@ KulrSpottr.prototype.drawBoard = function(level) {
     If the clicked tile is the special tile, increase score and move on to the next level, otherwise, game over!
 */
 
-KulrSpottr.prototype.checkTile = function() {
+CoolTiles.prototype.checkTile = function() {
     if ($(this).data('special')) {
         $('#score').html('Score: ' + ++game.score);
         game.drawBoard(++game.level);
@@ -84,7 +84,7 @@ KulrSpottr.prototype.checkTile = function() {
     Hint the player with a dashed border around the special tile
 */
 
-KulrSpottr.prototype.showHint = function() {
+CoolTiles.prototype.showHint = function() {
     $('div[data-special=1]').css('border', $(this).prop('checked') ? '3px dashed black' : 'none');
     $('div[data-special=1]').css('margin', $(this).prop('checked') ? '0' : '3px');
 };
@@ -93,7 +93,7 @@ KulrSpottr.prototype.showHint = function() {
     Generate the 'Game Over' modal
 */
 
-KulrSpottr.prototype.gameOver = function() {
+CoolTiles.prototype.gameOver = function() {
     // Generate and show the 'Game Over' modal
     var html = '';
     html += '<div id="gameOver">';
@@ -114,7 +114,7 @@ KulrSpottr.prototype.gameOver = function() {
     Add current score and display top 10 scores
 */
 
-KulrSpottr.prototype.addScore = function() {
+CoolTiles.prototype.addScore = function() {
     // Add current score to list of scores
     game.player = $('#player').val();
     scores.push({ 'player': game.player, 'score': game.score });

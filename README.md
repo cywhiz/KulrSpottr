@@ -1,21 +1,21 @@
-# KulrSpottr
+# CoolTiles
 
 ## Description
-KulrSpottr is a game where the player has to spot the tile which has a different colour in a matrix of coloured tiles. If the player clicks the right tile, the game continues and the player moves on to the next level of difficulty. The game ends when the player chooses the wrong tile.
+CoolTiles is a game where the player has to spot the tile which has a different colour in a matrix of coloured tiles. If the player clicks the right tile, the game continues and the player moves on to the next level of difficulty. The game ends when the player chooses the wrong tile.
 
 ## Prerequisites
 Any modern Web browser with JavaScript enabled. Used https://crossbrowsertesting.com and also real devices to test cross-platform compatibilities. Fully compatible with the following popular Web browsers:
-* Windows: latest Chrome, latest Firefox, IE 11/Edge, latest Opera
-* Linux: latest Chrome, latest Firefox
-* Android: latest Chrome, latest Firefox, stock browser
-* iOS: latest Chrome, Safari 9/10
+* Windows: (Chrome, Firefox, IE Edge)
+* Linux: Chrome, Firefox
+* Android: Chrome, Firefox
+* iOS (iPhone): Chrome, Safari
 
 ## Usage
-1. Clone the repository to a local folder by running `git clone https://github.com/cywhiz/Kulrspottr.git`
+1. Clone the repository to a local folder by running `git clone https://github.com/cywhiz/CoolTiles.git`
 2. Swtich to the project folder
-3. Click on `index.html` to run the game
+3. Click on 'index.html' to run the game
 
-A live demo of the app can be accessed through https://kulrspottr.herokuapp.com
+A live demo of the app can be accessed through https://cooltiles.cyyip.com
 
 ## Tools/Frameworks Used
 This app was created with a goal to make it as simple as possible, without using unnecessary frameworks to clutter the app. It uses mostly pure JavaScript, CSS, and HTML. Only jQuery and Bootstrap are used to simplify tasks.
