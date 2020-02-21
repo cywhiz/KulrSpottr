@@ -11,7 +11,7 @@ Any modern Web browser with JavaScript enabled. Used https://crossbrowsertesting
 * iOS (iPhone): Chrome, Safari
 
 ## Usage
-1. Clone the repository to a local folder by running `git clone https://github.com/cywhiz/CoolTiles.git`
+1. Clone the repository to a local folder by running `git clone https://github.com/cywhiz/cooltiles.git`
 2. Swtich to the project folder
 3. Click on 'index.html' to run the game
 
